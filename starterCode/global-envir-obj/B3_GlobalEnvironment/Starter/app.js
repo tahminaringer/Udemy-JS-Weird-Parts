@@ -121,3 +121,16 @@ console.log(3 < 2 < 1); //(3 < 2 = false < 1) (false < 1 = true)
 // } else {
 //   console.log('Nope, not equal'); //run code get this
 // }
+
+// Excersise 28
+// function greet(name) {
+//   console.log('Hello' + name);
+// }
+// greet('Tahmina');
+
+// function greet(name) {
+//   name = name || '<Your name here>';
+//   console.log('Hello' + name);
+// }
+// greet('Tahmina');
+// greet();

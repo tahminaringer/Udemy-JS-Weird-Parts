@@ -51,5 +51,3 @@
 - **Operator Associativity** What order operator functions get called in left-to-right or right-to-left. When functions have the same precedence
 
 **Coercion** Converting a value from one type to another
-
-- **Comparison Operators** 
