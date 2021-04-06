@@ -29,3 +29,27 @@
 **ES6** Block scoping - let const
 
 **Asynchronous Callbacks** More than one running at a time
+
+**Dynamic Typing** You don't tell the engin what type of data a variable holds, it figures it our while your code is running.
+
+- Variable can hold different types of values because it's all figured out during execution.
+
+- **Primitive Type** A type of Data that represents a single value that is not an object
+  - Undefined
+  - Null
+  - Boolean
+  - Number - Floating point number (there is always some decimals). Unlike other programming languages, there's only one 'number' type
+  - String - a sequence of characters
+  - Symbol (ES6) - used in newest version of JS
+
+**Operators** A special function that is syntactically (written) defferently. Generally, operators take two parameter and return one result.
+
+- +, -, %, <, >, &&, !, ==, ===, ++, ||
+
+- **Operator Precedence** Which operator function gets called first. Functions are called in order of precedence(Higher precedence wins).
+
+- **Operator Associativity** What order operator functions get called in left-to-right or right-to-left. When functions have the same precedence
+
+**Coercion** Converting a value from one type to another
+
+- **Comparison Operators** 
