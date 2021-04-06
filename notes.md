@@ -21,3 +21,11 @@
 **Synchronous** One at a time and in order
 
 **Invocation** Running a function calling a function. invoke functions by adding parenthesis ()
+
+**Variable Environment** Where the variables live and how they relate to each other in memory
+
+**Scope** Where a variable is available in your code and if it is truly the same variable or a new copy.
+
+**ES6** Block scoping - let const
+
+**Asynchronous Callbacks** More than one running at a time
