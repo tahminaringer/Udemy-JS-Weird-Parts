@@ -56,3 +56,6 @@
 
 **method** function connected to an object
 
+**Namespace** A container for variable and functions - Typically to keep variable and functions with the same name separate
+
+**JSON** JavaScript Object Notation

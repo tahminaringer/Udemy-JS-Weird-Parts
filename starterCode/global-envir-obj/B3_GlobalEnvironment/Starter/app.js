@@ -188,3 +188,39 @@
 // Tahmina.address2 = {
 //   street: '333 Second St.'
 // }
+
+// Excersize 32
+
+// var greet = 'Hello';
+// var greet = 'Hola';
+
+// console.log(greet);
+
+// var english = {
+//   greetings: {
+//     basic: 'Hello'
+//   }
+// };
+
+// var spanish = {};
+
+// english.greetings = {};
+// english.greet = 'Hello';
+// spanish.greet = 'Hola';
+
+// console.log(english);
+// console.log(spanish);
+
+// Excersize 33
+
+
+var ObjectLiteral = {
+  firstname: 'Tahmina',
+  isAProgrammer: true
+}
+
+console.log(JSON.stringify(ObjectLiteral));
+
+//JSON name is wrapped in quotes
+var jsonValue = JSON.parse('{ "firstname": "Tahmina", "isAProgrammer": true }');
+console.log(jsonValue);
