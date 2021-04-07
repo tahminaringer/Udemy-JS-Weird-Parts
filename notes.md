@@ -1,6 +1,6 @@
 # Notes
 
-## Vocab
+## Sections 1-3
 
 **Syntax Parser** A program that reads your code and determines what it des and if its grammar is valid
 
@@ -51,3 +51,8 @@
 - **Operator Associativity** What order operator functions get called in left-to-right or right-to-left. When functions have the same precedence
 
 **Coercion** Converting a value from one type to another
+
+## Section 4
+
+**method** function connected to an object
+

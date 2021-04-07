@@ -100,8 +100,8 @@
 // console.log(c);
 
 // Excersize 25
-console.log(1 < 2 < 3); //(1 < 2 = true < 3) (true = 1 < 3) (1 < 3 = true)
-console.log(3 < 2 < 1); //(3 < 2 = false < 1) (false < 1 = true)
+// console.log(1 < 2 < 3); //(1 < 2 = true < 3) (true = 1 < 3) (1 < 3 = true)
+// console.log(3 < 2 < 1); //(3 < 2 = false < 1) (false < 1 = true)
 //Number(false) = 0
 //Number(true) = 1
 //Number(null) = 0
@@ -134,3 +134,57 @@ console.log(3 < 2 < 1); //(3 < 2 = false < 1) (false < 1 = true)
 // }
 // greet('Tahmina');
 // greet();
+
+//section 4
+
+// Excersize 30
+
+// var person = new Object();
+
+// person['firstname'] = 'Tahmina';
+// person['lastname'] = 'Ringer';
+
+// var firstNameProperty = 'firstname';
+
+// console.log(person);
+// console.log(person[firstNameProperty]);
+
+// console.log(person.firstname);
+// console.log(person.lastname);
+
+// person.address = new Object();
+// person.address.street = '111 Main St.';
+// person.address.city = 'Seattle';
+// person.address.state = 'Washington';
+
+// console.log(person.address.street);
+// console.log(person.address.city);
+// console.log(person['address']['state']);
+
+//Excersize 31 Object Litterals
+// is the same as var person = new Object(); 
+
+// var Tahmina = { 
+//   firstname: 'Tahmina', 
+//   lastname: 'Ringer',
+//   address: {
+//     street: '111 Main St.',
+//     city: 'Seattle',
+//     state: 'WA'
+//   } 
+// }; 
+
+// function greet(person){
+//   console.log('Hi ' + person.firstname);
+// }
+// greet(Tahmina);
+
+// //can also pass an object when calling the function
+// greet({
+//   firstname: 'Mary',
+//   lastname: 'Smith'
+// })
+
+// Tahmina.address2 = {
+//   street: '333 Second St.'
+// }
